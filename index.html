@@ -6,29 +6,33 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">   
         <!--font awesome cdn link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
-    
+        <!--google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Grandstander:wght@700&family=Koulen&family=Luckiest+Guy&family=Mochiy+Pop+P+One&family=Permanent+Marker&family=Roboto+Flex:opsz,wght@8..144,500&family=Syne+Mono&family=Titan+One&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INSURE LANDING PAGE</title>
 </head>
 <body>
-    <div class="main-content">  <!--main div-->
-        <section id="navbar">   <!--navbar section-->
-            <nav>
-                <div class="topnav">  <!-- Top Navigation Menu -->
-                    <a href="#home" class="logo-link" >
-                        <img class="logo" src="./content/images/logo.svg" alt="brand-logo">  <!--nav-logo-->   
-                    </a>
-                    <div id="myLinks">
-                        <a class="active" href="#news">News</a>
-                        <a class="active" href="#contact">Contact</a>
-                        <a class="active" href="#about">About</a>
-                    </div>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </a>
+    <div class="main-content">                        <!--main div-->
+        <section id="navbar">                         <!--navbar section-->
+            <nav class="topnav">                      <!-- Top Navigation Menu -->  
+                <a href="#home" class="logo-link" >   <!--nav-logo link--> 
+                    <img class="logo" src="./content/images/logo.svg" alt="brand-logo">    
+                </a>
+                <div id="myLinks">                    <!--nav links-->
+                    <a class="active" href="#news">HOW WE WORK</a>
+                    <a class="active" href="#contact">BLOG</a>
+                    <a class="active" href="#about">ACCOUNT</a>
+                    <a class="active" href="#about">VIEW PLANS</a>
+                    <img src="./content/images/bg-pattern-mobile-nav.svg" alt="mobile-nav-svg">  <!--mobile nav svg-->
                 </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </nav>    
         </section>
     </div>
@@ -38,10 +42,10 @@
     <script>   //navbar-toggle-button-js
         function myFunction() {
           var x = document.getElementById("myLinks");
-          if (x.style.display === "block") {
+          if (x.style.display === "grid") {
             x.style.display = "none";
           } else {
-            x.style.display = "block";
+            x.style.display = "grid";
           }
         }
         </script>
