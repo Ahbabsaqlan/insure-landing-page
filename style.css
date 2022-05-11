@@ -9,7 +9,7 @@
     position: fixed;
   }
   .topnav #myLinks {
-    /* display: none; */
+     
     height:100vh;
     background-color:  hsl(270, 9%, 17%);
     top: 70px;
@@ -19,6 +19,7 @@
     align-items: center;
     justify-items: center;
     padding-top: 30px;
+    display: none;
   }
   .icon {
     color: black;

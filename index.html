@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Grandstander:wght@700&family=Koulen&family=Luckiest+Guy&family=Mochiy+Pop+P+One&family=Permanent+Marker&family=Roboto+Flex:opsz,wght@8..144,500&family=Syne+Mono&family=Titan+One&display=swap" rel="stylesheet">
+        <!--animate.style cdn link-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,10 +44,10 @@
     <script>   //navbar-toggle-button-js
         function myFunction() {
           var x = document.getElementById("myLinks");
-          if (x.style.display === "none") {
-            x.style.display = "grid";
-          } else {
+          if (x.style.display === "grid") {
             x.style.display = "none";
+          } else {
+            x.style.display = "grid";
           }
         }
         </script>
