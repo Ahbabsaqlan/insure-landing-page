@@ -11,12 +11,14 @@
   .topnav #myLinks {
     /* display: none; */
     height:100vh;
-    background-color: #191428;
+    background-color:  hsl(270, 9%, 17%);
     top: 70px;
     position: relative;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 5fr;
+    grid-template-rows: 60px 60px 60px 60px 1fr;
     align-items: center;
+    justify-items: center;
+    padding-top: 30px;
   }
   .icon {
     color: black;
@@ -29,15 +31,14 @@
   }
   .active:hover {
     border: whitesmoke solid 2px;
-    background-color: #160f29;
   }
   .active {
-    background-color: #191428;
+    background-color:  hsl(270, 9%, 17%);
     color: white;
     width: 85vw;
     height: 6vh;
-    margin: 8px 20px;
-    font-size: 17px;
+    margin: 0px 20px;
+    font-size: 20px;
     font-family: 'Roboto Flex', sans-serif;
     text-decoration: none;
     display: block;
@@ -50,4 +51,8 @@
     position: absolute;
     top: 25px;
     left: 8%;
+  }
+  .mbl-nav-svg{
+    width: 100vw;
+    height: 60%;
   }
