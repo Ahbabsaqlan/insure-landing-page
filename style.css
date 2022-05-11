@@ -27,11 +27,12 @@
     padding: 6px 8px;
     border: solid rgb(37, 36, 36) 1.5px;
   }
-  .topnav a:hover {
+  .active:hover {
     border: whitesmoke solid 2px;
+    background-color: #160f29;
   }
   .active {
-    background-color: #161028;
+    background-color: #191428;
     color: white;
     width: 85vw;
     height: 6vh;
