@@ -7,16 +7,16 @@
 
 .topnav {
     background-color: rgb(253, 248, 248);
-    position: relative;
+    position: fixed;
     height:70px;
     width: 100vw;
+    z-index: 3;
   }
 .topnav #myLinks { 
   height:100vh;
   background-color:  hsl(270, 9%, 17%);
   top: 70px;
   position: absolute;
-  z-index: 3;
   display: grid;
   grid-template-rows: 60px 60px 60px 60px 1fr;
   align-items: center;
@@ -104,6 +104,7 @@
 }
 .bg-ptrn-intro-right{
   position: absolute;
+  z-index: 2;
   right: 0px;
   transform: translateY(-150px);
 }
