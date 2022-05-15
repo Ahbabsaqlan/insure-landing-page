@@ -100,7 +100,9 @@
   border: whitesmoke solid 2px;
   color: aliceblue;
   font-family: 'Karla', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
 
 }
 .bg-ptrn-intro-right{
@@ -125,7 +127,7 @@
   justify-self:center ;
 }
 .feature-heading{
-  font-size: 42px;
+  font-size: 46px;
   font-weight: 700;
   font-family: 'DM Serif Display', serif;
   
@@ -139,16 +141,17 @@
   margin-bottom: 40px;
 }
 .card-heading{
-  font-family: 'Karla', sans-serif;
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 .card-text{
-  width: 284px;
+  width: 290px;
   text-align: center;
+  font-family: 'Karla', sans-serif;
   font-size: 16px;
   font-weight: 400;
+  line-height: 30px;
   color: hsl(273, 4%, 51%);
 }
 
@@ -186,6 +189,7 @@
   color: aliceblue;
   font-family: 'Karla', sans-serif;
   font-size: 14px;
+  letter-spacing: 2px;
 }
 
 /*contact section*/
@@ -193,6 +197,7 @@
 .main-contact{
   background-image: url(./content/images/bg-pattern-footer-mobile.svg);
   background-repeat: no-repeat;
+  background-color: hsl(0, 0%, 98%);
   display: grid;
   justify-items:center ;
 }
@@ -200,6 +205,40 @@
   display: block;
   margin-top: 90px;
 }
-.contact-logo{
+.contact-icon{
   margin: 30px 10px 30px 10px;
+}
+
+/*footer section*/
+
+.footer-main{
+  background-color: hsl(0, 0%, 98%);
+  display: grid;
+  justify-items: center;
+}
+.footer-hr{
+  width: 320px;
+}
+.footer-link-1{
+  color: hsl(273, 4%, 51%);
+  text-decoration: none;
+  width: fit-content;
+  margin: 40px 0px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Karla', sans-serif;
+  font-size: 12px;
+}
+.footer-link-2{
+  text-decoration: none;
+  width: fit-content;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: 'Karla', sans-serif;
+  font-size: 12px;
+  margin: 8px 0px;
+  color: hsl(256, 26%, 20%);
+}
+.footer-link-2:last-child{
+  margin-bottom: 80px;
 }
