@@ -130,7 +130,7 @@
   font-family: 'DM Serif Display', serif;
   
 }
-.card-1{
+.card{
   display: grid;
   justify-items: center;
   margin-top: 70px;
@@ -150,4 +150,56 @@
   font-size: 16px;
   font-weight: 400;
   color: hsl(273, 4%, 51%);
+}
+
+/*how we work sections*/
+
+.main-hww{
+  background-color: aliceblue;
+  padding: 150px 25px 120px 25px;
+}
+.how-we-work-bg{
+  background-color: hsl(256, 26%, 20%);
+  background-image: url(./content/images/bg-pattern-how-we-work-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  display: grid;
+  justify-items: center;
+
+}
+.hww-heading{
+  width: 280px;
+  padding-top: 70px;
+  text-align: center;
+  color: aliceblue;
+  margin: 0%;
+  font-size: 42px;
+  font-weight: 700;
+  font-family: 'DM Serif Display', serif;
+}
+.hww-link{
+  text-decoration: none;
+  width: fit-content;
+  margin: 30px 0px 60px 0px;
+  padding: 10px 22px;
+  border: whitesmoke solid 2px;
+  color: aliceblue;
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+}
+
+/*contact section*/
+
+.main-contact{
+  background-image: url(./content/images/bg-pattern-footer-mobile.svg);
+  background-repeat: no-repeat;
+  display: grid;
+  justify-items:center ;
+}
+.brand-logo{
+  display: block;
+  margin-top: 90px;
+}
+.contact-logo{
+  margin: 30px 10px 30px 10px;
 }
