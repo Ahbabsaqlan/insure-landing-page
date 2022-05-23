@@ -11,7 +11,7 @@
     height:70px;
     width: 100vw;
     z-index: 6;
-  }
+}
 .topnav #myLinks { 
   background-image: url(./content/images/bg-pattern-mobile-nav.svg);
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@
   letter-spacing: 2px;
   font-family: 'Roboto Flex', sans-serif;
   text-align: center;
-  justify-items: center;
+  
   position: relative;
   width: fit-content;
   height: fit-content;
@@ -198,6 +198,7 @@
 .main-contact{
   background-image: url(./content/images/bg-pattern-footer-mobile.svg);
   background-repeat: no-repeat;
+  background-size: contain;
   background-color: hsl(0, 0%, 98%);
   display: grid;
   justify-items:center ;
@@ -206,7 +207,10 @@
   display: block;
   margin-top: 90px;
 }
-.contact-icon{
+.contact-icon-main{
+  margin: 40px 0px;
+}
+.contact-icon-link{
   margin: 30px 10px 30px 10px;
 }
 
@@ -242,4 +246,53 @@
 }
 .footer-link-2:last-child{
   margin-bottom: 80px;
+}
+
+/*tablet screen*/
+
+@media (min-width:600px){
+  .topnav #myLinks{
+    background-size:100%;
+  }
+  .main-contact{
+    background-size: cover;
+  }
+  .icon{
+    margin-right: 50px;
+  }
+}
+
+/*mini desktop screen*/
+
+@media (min-width:770px){
+  .topnav #myLinks{
+    display: inline-block;
+    background-color: rgb(253, 248, 248);
+    height: 70px;
+    background-image: none;
+    top: 0%;
+    padding: 0%;
+    position: absolute;
+    margin-left: 45%;
+    display: grid;
+    grid-template-rows: none;
+    grid-template-columns: max-content max-content max-content max-content;
+    align-self: center;
+  }
+  .active{
+    background-color: rgb(253, 248, 248);
+    color: hsl(273, 4%, 51%);
+    font-size: 10px;
+    font-weight: 700;
+    margin: auto 20px;
+    
+  }
+  .active:last-child{
+    padding: 10px 25px;
+    border: 2px solid hsl(270, 9%, 17%);
+    color: hsl(270, 9%, 17%);
+  }
+  .icon{
+    display: none;
+  }
 }
