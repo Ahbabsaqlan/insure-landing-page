@@ -37,7 +37,6 @@
   letter-spacing: 2px;
   font-family: 'Roboto Flex', sans-serif;
   text-align: center;
-  
   position: relative;
   width: fit-content;
   height: fit-content;
@@ -63,7 +62,13 @@
 
 /*welcome section*/
 
-.intro-img{
+.intro-img-laptop{
+  display: none;
+}
+.hr-wel{
+  display: none;
+}
+.intro-img-mobile{
   width: 100vw;
   display: block;
   overflow: hidden;
@@ -251,6 +256,7 @@
 /*tablet screen*/
 
 @media (min-width:600px){
+  /*nav*/
   .topnav #myLinks{
     background-size:100%;
   }
@@ -265,6 +271,10 @@
 /*mini desktop screen*/
 
 @media (min-width:770px){
+  /*nav section*/
+  .topnav{
+    position: relative;
+  }
   .topnav #myLinks{
     display: inline-block;
     background-color: rgb(253, 248, 248);
@@ -294,5 +304,36 @@
   }
   .icon{
     display: none;
+  }
+  /*welcome section*/
+  .intro-img-mobile{
+    display: none;
+  }
+  .intro-img-laptop{
+    display: block;
+    position: absolute;
+    right: 120px;
+    top: 150px;
+    z-index: 4;
+  }
+  .hr-wel{
+    display: block;
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+    color: aliceblue;
+    
+  }
+  .intro-main{
+    background-image: url(./content/images/bg-pattern-intro-right-desktop.svg);
+    background-position: top right;
+    justify-content: left;
+    padding-left: 80px;
+  }
+  .bg-ptrn-intro-right{
+    display: none;
+  }
+  .intro-heading{
+    text-align: left;
   }
 }
