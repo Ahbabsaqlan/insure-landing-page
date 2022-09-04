@@ -70,13 +70,12 @@
 }
 .intro-img-mobile{
   width: 100vw;
+  padding-top: 70px;
   display: block;
   overflow: hidden;
 }
 .intro-main{
   background-color: hsl(256, 26%, 20%);
-  background-image: url(./content/images/bg-pattern-intro-left-mobile.svg);
-  background-repeat: no-repeat;
   display: grid;
   justify-items: center;
 }
@@ -109,6 +108,11 @@
   font-weight: 700;
   letter-spacing: 2px;
 
+}
+.bg-ptrn-intro-left{
+  position: absolute;
+  z-index: 3;
+  left: 0;
 }
 .bg-ptrn-intro-right{
   position: absolute;
@@ -325,8 +329,9 @@
     
   }
   .intro-main{
-    background-image: url(./content/images/bg-pattern-intro-right-desktop.svg);
+    background-image: ;
     background-position: top right;
+    bg
     justify-content: left;
     padding-left: 80px;
   }
