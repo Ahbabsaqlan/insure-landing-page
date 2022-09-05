@@ -375,5 +375,28 @@
 
   /*features sections*/
 
-
+  .main-feature{
+    padding-top: 240px;
+  }
+  .card-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .card{
+    margin:70px 10px 0px;
+  }
+  .hr{
+    justify-self: start;
+    margin-left: 85px;
+    width: 25%;
+  }
+  .feature-heading{
+    justify-self: start;
+    margin-left: 85px;
+  }
+  .card-text{
+    height: 120px;
+    text-align: center;
+    
+  }
 }
