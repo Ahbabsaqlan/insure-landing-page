@@ -266,7 +266,9 @@
 /*tablet screen*/
 
 @media (min-width:600px){
+
   /*nav*/
+
   .topnav #myLinks{
     background-size:100%;
   }
@@ -281,6 +283,7 @@
 /*mini desktop screen*/
 
 @media (min-width:770px){
+
   /*nav section*/
 
   .topnav{
@@ -398,5 +401,24 @@
     height: 120px;
     text-align: center;
     
+  }
+
+  /*how we work sections*/
+
+  .main-hww{
+    padding: 150px 70px 120px;
+  }
+  .how-we-work-bg{
+    background-image: url(./content/images/bg-pattern-how-we-work-desktop.svg);
+    grid-template-columns: 2fr 1fr;
+  }
+  .hww-heading{
+    padding: 0%;
+    width: 450px;
+    text-align: start;
+    margin: 76px 0px;
+  }
+  .hww-link{
+    margin: 104px 0px;
   }
 }
