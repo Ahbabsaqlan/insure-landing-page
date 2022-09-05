@@ -112,6 +112,9 @@
 .bg-pattern-intro-right-desktop{
   display: none;
 }
+.bg-pattern-intro-left-desktop{
+  display: none;
+}
 .bg-ptrn-intro-left{
   position: absolute;
   z-index: 3;
@@ -279,6 +282,7 @@
 
 @media (min-width:770px){
   /*nav section*/
+
   .topnav{
     position: relative;
   }
@@ -312,7 +316,9 @@
   .icon{
     display: none;
   }
+
   /*welcome section*/
+
   .intro-img-mobile{
     display: none;
   }
@@ -350,6 +356,7 @@
     top: 0;
   }
   .bg-pattern-intro-left-desktop{
+    display: block;
     position: absolute;
     z-index: 5;
     left: 0;
@@ -365,4 +372,8 @@
   .intro-link{
     justify-self: start;
   }
+
+  /*features sections*/
+
+
 }
