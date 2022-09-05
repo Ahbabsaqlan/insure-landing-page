@@ -109,6 +109,9 @@
   letter-spacing: 2px;
 
 }
+.bg-pattern-intro-right-desktop{
+  display: none;
+}
 .bg-ptrn-intro-left{
   position: absolute;
   z-index: 3;
@@ -316,29 +319,50 @@
   .intro-img-laptop{
     display: block;
     position: absolute;
-    right: 120px;
-    top: 150px;
+    right: 100px;
+    top: 250px;
     z-index: 4;
+    height: 550px;
+    width: auto;
   }
   .hr-wel{
     display: block;
-    float: left;
     width: 50%;
-    margin-top: 100px;
+    margin-top: 135px;
     color: aliceblue;
-    
+    justify-self:start ;
   }
   .intro-main{
-    background-image: ;
-    background-position: top right;
-    bg
     justify-content: left;
     padding-left: 80px;
+  }
+  .bg-ptrn-intro-left{
+    display: none;
   }
   .bg-ptrn-intro-right{
     display: none;
   }
+  .bg-pattern-intro-right-desktop{
+    position: absolute;
+    display: block;
+    z-index: 5;
+    right: 0;
+    top: 0;
+  }
+  .bg-pattern-intro-left-desktop{
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    transform: translateY(-170px);
+
+  }
   .intro-heading{
     text-align: left;
+  }
+  .intro-text{
+    text-align: left;
+  }
+  .intro-link{
+    justify-self: start;
   }
 }
