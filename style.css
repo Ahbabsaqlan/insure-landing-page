@@ -442,7 +442,25 @@
     position: absolute;
   }
   .brand-logo{
-    margin: 90px 0px 40px;
-    left: 550px;
+    margin: 70px 0px 30px;
+    position: relative;
+    right: 250px;
   }
+  .contact-icon-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    margin: 65px 0px 20px;
+    max-width: fit-content;
+    position: relative;
+    right: 15px;
+  }
+  .contact-icon-link{
+    margin: 0;
+  }
+
+  
+/*footer section*/
+
+
 }
