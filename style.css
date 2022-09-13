@@ -211,16 +211,22 @@
 /*contact section*/
 
 .main-contact{
-  background-image: url(./content/images/bg-pattern-footer-mobile.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: hsl(0, 0%, 98%);
   display: grid;
+  width: 100vw;
   justify-items:center ;
+  position: absolute;
+  z-index: 2;
+  justify-self: center;
+}
+.contact-bg-mobile{
+  position: absolute;
+}
+.contact-bg-desktop{
+  display: none;
 }
 .brand-logo{
   display: block;
-  margin-top: 90px;
+  margin-top: 70px;
 }
 .contact-icon-main{
   margin: 40px 0px;
@@ -235,6 +241,7 @@
   background-color: hsl(0, 0%, 98%);
   display: grid;
   justify-items: center;
+  margin-top: 200px;
 }
 .footer-hr{
   width: 320px;
@@ -420,5 +427,22 @@
   }
   .hww-link{
     margin: 104px 0px;
+  }
+
+  /*contact section*/
+
+  .main-contact{
+    grid-template-columns: 3fr 1fr;
+  }
+  .contact-bg-mobile{
+    display: none;
+  }
+  .contact-bg-desktop{
+    display: block;
+    position: absolute;
+  }
+  .brand-logo{
+    margin: 90px 0px 40px;
+    left: 550px;
   }
 }
