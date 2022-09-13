@@ -235,16 +235,25 @@
   margin: 30px 10px 30px 10px;
 }
 
+
 /*footer section*/
 
+.footer-hr{
+  width: 320px;
+  display: block;
+  margin: auto;
+  margin-top: 196px;
+}
 .footer-main{
   background-color: hsl(0, 0%, 98%);
   display: grid;
   justify-items: center;
-  margin-top: 200px;
+  margin-bottom: 80px;
 }
-.footer-hr{
-  width: 320px;
+.footer-link{
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: center;
 }
 .footer-link-1{
   color: hsl(273, 4%, 51%);
@@ -267,7 +276,7 @@
   color: hsl(256, 26%, 20%);
 }
 .footer-link-2:last-child{
-  margin-bottom: 80px;
+  margin-bottom: 0px;
 }
 
 /*tablet screen*/
@@ -462,5 +471,14 @@
   
 /*footer section*/
 
-
+  .footer-main{
+    margin-top: 118px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .footer-hr{
+    width: 85%;
+  }
+  .footer-link{
+    
+  }
 }
