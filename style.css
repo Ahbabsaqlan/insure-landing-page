@@ -230,9 +230,12 @@
 }
 .contact-icon-main{
   margin: 40px 0px;
+  height: fit-content;
 }
 .contact-icon-link{
   margin: 30px 10px 30px 10px;
+  height: fit-content;
+  width: fit-content;
 }
 
 
@@ -260,6 +263,7 @@
   color: hsl(273, 4%, 51%);
   text-decoration: none;
   width: fit-content;
+  height: fit-content;
   margin: 40px 0px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -269,6 +273,7 @@
 .footer-link-2{
   text-decoration: none;
   width: fit-content;
+  height: fit-content;
   font-weight: 700;
   letter-spacing: 2px;
   font-family: 'Karla', sans-serif;
@@ -325,10 +330,17 @@
     margin: auto 20px;
     
   }
+  .active:hover{
+    color: hsl(270, 9%, 17%);
+  }
   .active:last-child{
     padding: 10px 25px;
     border: 2px solid hsl(270, 9%, 17%);
     color: hsl(270, 9%, 17%);
+  }
+  .active:last-child:hover{
+    color: aliceblue;
+    background-color:hsl(270, 9%, 17%) ;
   }
   .icon{
     display: none;
@@ -389,6 +401,10 @@
   .intro-link{
     justify-self: start;
   }
+  .intro-link:hover{
+    color: hsl(270, 9%, 17%);
+    background-color: aliceblue;
+  }
 
   /*features sections*/
 
@@ -435,6 +451,10 @@
   .hww-link{
     margin: 104px 0px;
   }
+  .hww-link:hover{
+    color: hsl(270, 9%, 17%);
+    background-color: aliceblue;
+  }
 
   /*contact section*/
 
@@ -465,7 +485,6 @@
   .contact-icon-link{
     margin: 0;
   }
-
   
 /*footer section*/
 
@@ -483,6 +502,9 @@
   }
   .footer-link{
     justify-items: start;
+  }
+  .footer-link-2:hover{
+    text-decoration: underline;
   }
 }
 
