@@ -45,6 +45,10 @@
   padding: 16px 80px;
   border: whitesmoke solid 2px;
 }
+#icon{
+  width: 15px;
+  text-align: center;
+}
 .icon {
   color: black;
   background-color: white;
